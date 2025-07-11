@@ -1,6 +1,6 @@
 # 🎓 FCE-ChatBot
 
-A smart and simple chatbot to check **subject prerequisites**, **electives**, and **optional courses** at the Faculty of Economic Sciences (UBA) 🇦🇷  
+A smart and simple chatbot to check **subject prerequisites**, **electives**, and **optional courses** at Facultad de Ciencias Economicas (UBA) 🇦🇷  
 Built to help undergraduate students quickly access academic requirements in an easy, user-friendly way.
 
 > 🗣 Available in Spanish
