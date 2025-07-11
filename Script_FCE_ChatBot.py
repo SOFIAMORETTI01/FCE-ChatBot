@@ -52,7 +52,7 @@ def normalizar(texto):
 import pandas as pd
 
 def cargar_datos():
-    df = pd.read_csv("Materias_BOT.csv", sep=";", encoding="utf-8-sig", engine="python")
+    df = pd.read_csv("Materias_BOT.csv", sep=",", encoding="utf-8-sig", engine="python")
     df.columns = df.columns.str.strip()
     print("Columnas leídas:", df.columns.tolist())
     return df
