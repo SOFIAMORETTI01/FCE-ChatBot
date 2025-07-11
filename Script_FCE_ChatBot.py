@@ -52,13 +52,9 @@ def normalizar(texto):
 @st.cache_data
 def cargar_datos():
     import csv
-    df = pd.read_csv(
-        "Materias_BOT.csv",
-        encoding="latin1",
-        sep=";",
-        quoting=csv.QUOTE_MINIMAL,
-        engine="python"
-    )
+    import pandas as pd
+      df = pd.read_csv("Materias_BOT.csv", sep=";", engine="python", encoding="latin1", lineterminator="\n")
+
     df.columns = df.columns.str.strip()
 
     for col in ["Carrera", "Materia", "Correlativas"]:
