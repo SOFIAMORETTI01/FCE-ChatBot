@@ -53,8 +53,6 @@ def normalizar(texto):
 def cargar_datos():
     df = pd.read_csv("Materias_BOT.csv", sep=";", engine="python", encoding="latin1")
     df.columns = df.columns.str.strip()
-    for col in df.columns:
-       print(f"'{col}'")
 
     for col in ["Carrera", "Materia", "Correlativas"]:
         if col in df.columns:
