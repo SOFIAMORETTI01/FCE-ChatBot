@@ -49,18 +49,14 @@ def normalizar(texto):
     return texto
 
 # Cargar el archivo de materias, limpiar texto y agregar columnas normalizadas
+import pandas as pd
+
 def cargar_datos():
-    import pandas as pd
-
-    # Abrir el archivo quitando el BOM si lo hubiera
-    with open("Materias_BOT.csv", "r", encoding="utf-8-sig") as f:
-        df = pd.read_csv(f, sep=";", engine="python")
-
-    # Limpiar nombres de columnas
+    df = pd.read_csv("Materias_BOT.csv", sep=";", encoding="utf-8-sig", engine="python")
     df.columns = df.columns.str.strip()
-
-    st.write("Columnas leídas:", df.columns.tolist())
+    print("Columnas leídas:", df.columns.tolist())
     return df
+
 
 # Cargar df una vez acá
 df = cargar_datos()
