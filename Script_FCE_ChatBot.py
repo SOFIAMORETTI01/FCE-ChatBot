@@ -221,7 +221,7 @@ def responder_usuario(entrada_usuario):
                 if correlativas in ["", "-", "", "|", "nan"]:
                    respuesta = f"✅ Para **{st.session_state.materia}**, ¡no necesitás correlativas!"
                 else:
-                   lista = [x.strip() for x in re.split(r'\\n|\n|\r\n|\r', correlativas) if x.strip()]
+                   lista = [x.strip() for x in correlativas.splitlines() if x.strip()]
                    respuesta = f"📚 Para **{st.session_state.materia}**, necesitás tener aprobada:\n"
                    for c in lista:
                     respuesta += f"- {c}\n"
