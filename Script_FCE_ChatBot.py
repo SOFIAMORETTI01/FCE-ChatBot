@@ -51,17 +51,13 @@ def normalizar(texto):
 # Cargar el archivo de materias, limpiar texto y agregar columnas normalizadas
 @st.cache_data
 def cargar_datos():
-    # Leer el archivo CSV
-    df = pd.read_csv("Materias_BOT.csv", sep=";", encoding="latin1", engine="python")
+    df = pd.read_csv("Materias_BOT.csv", sep=";", encoding="utf-8", engine="python")
 
-    # Mostrar las columnas tal como pandas las leyó (debug)
     st.write("Columnas leídas:", df.columns.tolist())
 
-    # Limpiar los nombres de columnas
-    df.columns = df.columns.str.strip()  # elimina espacios
-    df.columns = df.columns.str.replace('\ufeff', '', regex=True)  # elimina caracteres ocultos tipo BOM
+    df.columns = df.columns.str.strip()
+    df.columns = df.columns.str.replace('\ufeff', '', regex=True)
 
-    # Normalizar columnas necesarias
     for col in ["Carrera", "Materia", "Correlativas"]:
         if col in df.columns:
             df[col] = df[col].astype(str).apply(lambda x: unicodedata.normalize('NFD', x).encode('ascii', 'ignore').decode('utf-8').strip())
@@ -70,6 +66,7 @@ def cargar_datos():
     df["Materia_norm"] = df["Materia"].apply(normalizar)
 
     return df
+
 
 
 
