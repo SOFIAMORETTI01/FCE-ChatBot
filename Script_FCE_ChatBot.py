@@ -51,7 +51,7 @@ def normalizar(texto):
 # Cargar el archivo de materias, limpiar texto y agregar columnas normalizadas
 @st.cache_data
 def cargar_datos():
-    df = pd.read_csv("Materias_BOT.csv", sep=";", engine="python", encoding="latin1", lineterminator="\n")
+    df = pd.read_csv("Materias_BOT.csv", sep=";", engine="python", encoding="latin1")
 
     df.columns = df.columns.str.strip()
 
