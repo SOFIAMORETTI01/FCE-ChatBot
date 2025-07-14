@@ -52,7 +52,3 @@ Navigating course requirements can be confusing. This chatbot makes it easier by
 4. **Run the app:**
    ```bash
    streamlit run Script_FCE_ChatBot.py
-
-
-
-
