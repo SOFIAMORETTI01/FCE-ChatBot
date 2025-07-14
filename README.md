@@ -4,7 +4,8 @@ A smart and simple chatbot to check **subject prerequisites**, **electives**, an
 Built to help undergraduate students quickly access academic requirements in an easy, user-friendly way.
 
 > 🗣 Available in Spanish
-> 🌐 [Try it online](https://portfolio-sofia-moretti.netlify.app/)
+
+> 🌐 [Try it online](https://portfolio-sofia-moretti.netlify.app/) 
 ---
 
 ## ⚙️ Tech Stack
