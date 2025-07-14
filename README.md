@@ -23,8 +23,6 @@ Navigating course requirements can be confusing. This chatbot makes it easier by
 
 ## 📸 Preview
 
-## 📸 Preview
-
 #### 1. Start screen  
 ![Start screen](./Preview/FCE%20ChatBot%20-%201.png)
 
