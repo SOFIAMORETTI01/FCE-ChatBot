@@ -46,11 +46,11 @@ Navigating course requirements can be confusing. This chatbot makes it easier by
    cd FCE-ChatBot
    
 2. **Install dependencies:**
-   
+   ```bash
    pip install -r requirements.txt
 
 4. **Run the app:**
-   
+   ```bash
    streamlit run Script_FCE_ChatBot.py
 
 
