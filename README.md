@@ -19,4 +19,5 @@ Built to help undergraduate students quickly access academic requirements in an 
 
 Navigating course requirements can be confusing. This chatbot makes it easier by providing quick, structured answers—no PDFs or guessing required.
 
+##
 ---
