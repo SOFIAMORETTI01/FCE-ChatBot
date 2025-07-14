@@ -38,7 +38,7 @@ Navigating course requirements can be confusing. This chatbot makes it easier by
 
 ---
 
-## 🛠️ How to Run Locally
+## 🛠️ How to run locally
 
 1. **Clone this repository:**
    ```bash
