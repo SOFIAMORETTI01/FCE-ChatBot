@@ -5,7 +5,7 @@ Built to help undergraduate students quickly access academic requirements in an 
 
 > 🗣 Available in Spanish
 
-> 🌐 [Try it online](https://portfolio-sofia-moretti.netlify.app/) 
+> 🌐 [Try it online](https://fce-chatbot-x5xuy3ndv5h5dq6mq7oxtg.streamlit.app/)
 ---
 
 ## ⚙️ Tech Stack
