@@ -23,9 +23,19 @@ Navigating course requirements can be confusing. This chatbot makes it easier by
 
 ## 📸 Preview
 
-![Step 1 - Start screen](./Preview/FCE%20ChatBot%20-%201.png)
-![Step 2 - User input](./Preview/FCE%20ChatBot%20-%202.png)
-![Step 3 - Bot response](./Preview/FCE%20ChatBot%20-%203.png)
-![Step 4 - Full interaction](./Preview/FCE%20ChatBot%20-%204.png)
+## 📸 Preview
+
+#### 1. Start screen  
+![Start screen](./Preview/FCE%20ChatBot%20-%201.png)
+
+#### 2. Prerequisite check (correlatives)  
+![Correlatives query](./Preview/FCE%20ChatBot%20-%202.png)
+
+#### 3. Optional courses 
+![Optional courses](./Preview/FCE%20ChatBot%20-%203.png)
+
+#### 4. Electives courses 
+![Electives](./Preview/FCE%20ChatBot%20-%204.png)
+
 
 ---
