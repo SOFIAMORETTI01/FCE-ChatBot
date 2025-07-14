@@ -12,7 +12,6 @@ Built to help undergraduate students quickly access academic requirements in an 
 
 - **Logic & Data:** Python, Pandas  
 - **Frontend:** Streamlit + custom CSS  
-- **Deployment:** Netlify  
 
 ---
 
@@ -27,7 +26,7 @@ Navigating course requirements can be confusing. This chatbot makes it easier by
 #### 1. Start screen  
 ![Start screen](./Preview/FCE%20ChatBot%20-%201.png)
 
-#### 2. Prerequisite check (correlatives)  
+#### 2. Prerequisite check 
 ![Correlatives query](./Preview/FCE%20ChatBot%20-%202.png)
 
 #### 3. Optional courses 
